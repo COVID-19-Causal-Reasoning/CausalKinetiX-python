@@ -1,4 +1,4 @@
-import setuptools
+from setuptools import setup
 
 setup(
     name='CausalKinetiX',
@@ -10,5 +10,5 @@ setup(
     url='https://github.com/NiklasPfister/CausalKinetiX-python',
     install_requires=['numpy','scipy','quadprog','matplotlib', 'copy','glmnet','itertools']
     #license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    #packages=find_packages(exclude=('tests', 'docs'))
 )
